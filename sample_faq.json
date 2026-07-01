@@ -1,0 +1,32 @@
+[
+  {
+    "intent": "shipping_fee",
+    "question": "How much is the shipping fee?",
+    "answer": "Shipping fee depends on your delivery location and order value. Please provide your address so we can calculate the fee."
+  },
+  {
+    "intent": "return_policy",
+    "question": "Can I return a product?",
+    "answer": "Products can be returned within the allowed return period if they meet the store return policy conditions."
+  },
+  {
+    "intent": "store_hours",
+    "question": "What time does the store open?",
+    "answer": "Our store usually opens from 8:00 AM to 9:00 PM every day."
+  },
+  {
+    "intent": "order_support",
+    "question": "Can you help me check my order?",
+    "answer": "Please provide your order code or phone number so support staff can check the order status."
+  },
+  {
+    "intent": "product_information",
+    "question": "Can you tell me about this product?",
+    "answer": "Please provide the product name or category so I can help you with product information."
+  },
+  {
+    "intent": "unknown",
+    "question": "Can you help me?",
+    "answer": "Of course. Could you please tell me what you need help with? I can support product information, order questions, shipping, returns, or product recommendations."
+  }
+]
