@@ -1,31 +1,40 @@
 # AI Chatbot Developer Portfolio
 
-## About Me
+## Overview
 
-My name is Phan Tien Phat. I am a Junior AI Chatbot Developer with around 2 years of practical experience in building AI chatbot prototypes, FAQ automation systems, customer support assistants, and product recommendation workflows for small business use cases.
+This repository is a professional portfolio for **Phan Tien Phat**, a Junior AI Chatbot Developer with around **2 years of practical experience** in building AI chatbot prototypes, FAQ automation workflows, customer support assistants, and product recommendation chatbot use cases.
+
+The purpose of this portfolio is to summarize my chatbot development focus, technical skills, project areas, sample deliverables, and AI automation use cases for clients who need practical chatbot solutions for small and medium business workflows.
+
+## Professional Profile
+
+**Name:** Phan Tien Phat  
+**Role:** Junior AI Chatbot Developer  
+**Main Focus:** AI Chatbot, FAQ Automation, Customer Support Assistant, Product Recommendation Assistant  
+**Years of Experience:** Around 2 years  
+**Core Skills:** Python, NLP, OpenAI API, Prompt Engineering, Chatbot Flow Design, Business Automation
+
+## Technical Skill Summary
 
 I mainly work with:
 
-- Python
-- Natural Language Processing
-- OpenAI API
-- Prompt Engineering
-- Chatbot Development
-- Business Workflow Automation
-
-## Professional Title
-
-Junior AI Chatbot Developer
-
-## Experience Summary
-
-I have around 2 years of practical experience building AI chatbot prototypes and automation workflows. My work focuses on helping businesses automate repetitive customer support tasks, answer frequently asked questions, and recommend suitable products based on user needs.
+- Python backend development
+- Natural Language Processing basics
+- OpenAI API integration
+- Prompt engineering
+- Chatbot conversation flow design
+- FAQ dataset preparation
+- API integration for chatbot workflows
+- Basic frontend chatbot UI integration
+- Documentation for AI automation systems
 
 ## Main Project Areas
 
 ### 1. Customer Support Chatbot
 
-A chatbot designed to answer common customer questions such as:
+A chatbot designed to answer common customer questions and reduce repetitive support work.
+
+Typical supported topics:
 
 - Product information
 - Order support
@@ -33,86 +42,82 @@ A chatbot designed to answer common customer questions such as:
 - Shipping fee
 - Store opening hours
 - Basic troubleshooting
+- Frequently asked questions
 
-Example deliverables:
+Typical deliverables:
 
 - FAQ dataset structure
-- Conversation flow
+- Chatbot conversation flow
 - Prompt templates
-- API integration sample
-- User guide
+- API response format
+- User guide for business users
 
 ### 2. E-commerce Product Recommendation Assistant
 
-An AI assistant that helps users find suitable products based on:
+An AI assistant that helps customers find suitable products based on their needs.
 
-- Customer preferences
+Supported recommendation factors:
+
+- Customer preference
 - Product category
-- Skin type or product needs
 - Budget range
+- Product needs
 - Frequently asked questions
+- Simple business rules
 
-Example deliverables:
+Typical deliverables:
 
 - Product recommendation prompt
 - Product filtering logic
-- Sample chatbot responses
-- API response format
-- Basic frontend chatbot UI flow
+- Sample product dataset
+- Chatbot response examples
+- Basic integration documentation
 
 ### 3. Internal Business FAQ Assistant
 
-A chatbot that helps staff quickly find answers from internal business documents, policy notes, and FAQ data.
+A chatbot that helps staff quickly search and understand internal business information.
 
-Example deliverables:
+Supported use cases:
+
+- Internal policy FAQ
+- Business workflow questions
+- Staff onboarding support
+- Internal knowledge assistant
+- Document-based question answering prototype
+
+Typical deliverables:
 
 - Internal FAQ knowledge base format
 - Prompt engineering templates
-- Sample business questions and answers
+- Sample question-answer pairs
 - Deployment guide
-- Documentation for business users
+- User guide for internal staff
 
-## Technical Skills
+## Sample Portfolio Evidence
 
-- Python backend development
-- NLP intent detection
-- Prompt engineering
-- OpenAI API integration
-- Chatbot conversation flow design
-- API integration
-- Basic frontend chatbot UI integration
-- Documentation for AI automation workflows
+This portfolio demonstrates my ability to prepare and document AI chatbot projects through:
 
-## Repository Evidence
-
-This portfolio is used to demonstrate my AI chatbot development focus. My chatbot-related work usually includes:
-
-- README documentation
-- Prompt templates
-- FAQ dataset examples
-- Chatbot flow design
+- Clear project descriptions
+- Business use case explanation
+- Chatbot workflow planning
+- Prompt template design
+- FAQ dataset structure
 - API integration samples
-- Deployment guide
-- User guide for business users
+- Deployment and user documentation
 
-## AI Automation Use Cases
+## Example Chatbot Workflow
 
-I can support clients with:
-
-- Website chatbot
-- FAQ chatbot
-- Product recommendation assistant
-- Customer support automation
-- Lead qualification chatbot
-- Internal knowledge assistant
-- Simple AI workflow automation
-
-## Certificate
-
-I completed the Coursera course **AI For Everyone**. The certificate holder name matches my profile name: **Phan Tien Phat**.
-
-## Author
-
-Phan Tien Phat  
-Junior AI Chatbot Developer  
-Skills: Python, NLP, OpenAI API, Chatbot, Prompt Engineering, Automation
+```mermaid
+flowchart TD
+    A[User sends message] --> B[Chatbot receives input]
+    B --> C[Intent detection]
+    C --> D{Intent type}
+    D -->|FAQ question| E[Search FAQ dataset]
+    D -->|Product recommendation| F[Collect user preference]
+    D -->|Unknown intent| G[Fallback response]
+    E --> H[Generate answer]
+    F --> I[Recommend suitable product]
+    G --> J[Ask clarification]
+    H --> K[Return response to user]
+    I --> K
+    J --> K
